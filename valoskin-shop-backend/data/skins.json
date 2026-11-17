@@ -1,0 +1,178 @@
+[
+  {
+    "id": "skin-001",
+    "name": "Prime Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Prime",
+    "image": "https://media.valorant-api.com/weaponskins/44d4043f-4baa-13a4-a735-40b462e0cd57/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["vandal", "prime", "exclusive", "popular"]
+  },
+  {
+    "id": "skin-002",
+    "name": "Reaver Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Premium",
+    "collection": "Reaver",
+    "image": "https://media.valorant-api.com/weaponskins/10777558-4e89-13e0-3e28-3e911eb31a89/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["vandal", "reaver", "premium", "dark"]
+  },
+  {
+    "id": "skin-003",
+    "name": "Elderflame Operator",
+    "weapon": "Operator",
+    "category": "Sniper",
+    "tier": "Ultra",
+    "collection": "Elderflame",
+    "image": "https://media.valorant-api.com/weaponskins/23013d33-40b5-c035-71cb-7080536440e3/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["operator", "dragon", "ultra", "elderflame"]
+  },
+  {
+    "id": "skin-004",
+    "name": "Glitchpop Phantom",
+    "weapon": "Phantom",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Glitchpop",
+    "image": "https://media.valorant-api.com/weaponskins/f233486a-49d7-8e6f-ef81-79b8a05c6d36/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["phantom", "glitchpop", "exclusive", "cyberpunk"]
+  },
+  {
+    "id": "skin-005",
+    "name": "Ion Sheriff",
+    "weapon": "Sheriff",
+    "category": "Sidearm",
+    "tier": "Premium",
+    "collection": "Ion",
+    "image": "https://media.valorant-api.com/weaponskins/cb6d0f50-4d57-1d22-fb39-509aa091be86/displayicon.png",
+    "details": { "chromasCount": 1, "levelsCount": 4 },
+    "tags": ["sheriff", "ion", "futuristic", "premium"]
+  },
+  {
+    "id": "skin-006",
+    "name": "Spectrum Classic",
+    "weapon": "Classic",
+    "category": "Sidearm",
+    "tier": "Exclusive",
+    "collection": "Spectrum",
+    "image": "https://media.valorant-api.com/weaponskins/9e3f94bd-449e-ec89-40ea-eb99e3a6a978/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["classic", "spectrum", "zedd", "exclusive"]
+  },
+  {
+    "id": "skin-007",
+    "name": "Kuronami Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Kuronami",
+    "image": "https://media.valorant-api.com/weaponskins/940a0efb-4c07-4e6f-8703-b09e4fbbf774/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["vandal", "kuronami", "exclusive", "ninja"]
+  },
+  {
+    "id": "skin-008",
+    "name": "RGX 11z Pro Blade",
+    "weapon": "Melee",
+    "category": "Melee",
+    "tier": "Exclusive",
+    "collection": "RGX 11z Pro",
+    "image": "https://media.valorant-api.com/weaponskins/d2834b6b-4e1b-417d-2e2d-3294314c995f/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 2 },
+    "tags": ["melee", "knife", "rgx", "exclusive"]
+  },
+  {
+    "id": "skin-009",
+    "name": "Sovereign Ghost",
+    "weapon": "Ghost",
+    "category": "Sidearm",
+    "tier": "Premium",
+    "collection": "Sovereign",
+    "image": "https://media.valorant-api.com/weaponskins/3cda789b-4f9e-64ad-3081-3796d11634bc/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["ghost", "sovereign", "premium", "angelic"]
+  },
+  {
+    "id": "skin-010",
+    "name": "Origin Operator",
+    "weapon": "Operator",
+    "category": "Sniper",
+    "tier": "Premium",
+    "collection": "Origin",
+    "image": "https://media.valorant-api.com/weaponskins/4034293f-45b0-c6e9-b69e-50a3161ce27a/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["operator", "origin", "premium", "scifi"]
+  },
+  {
+    "id": "skin-011",
+    "name": "Prime Phantom",
+    "weapon": "Phantom",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Prime",
+    "image": "https://media.valorant-api.com/weaponskins/d2834b6b-4e1b-417d-2e2d-3294314c995f/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["phantom", "prime", "exclusive"]
+  },
+  {
+    "id": "skin-012",
+    "name": "Reaver Sheriff",
+    "weapon": "Sheriff",
+    "category": "Sidearm",
+    "tier": "Premium",
+    "collection": "Reaver",
+    "image": "https://media.valorant-api.com/weaponskins/27a58dca-4d4b-8fde-d4da-d9b899d4cf67/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["sheriff", "reaver", "premium"]
+  },
+  {
+    "id": "skin-013",
+    "name": "Ion Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Premium",
+    "collection": "Ion",
+    "image": "https://media.valorant-api.com/weaponskins/43b8c946-44b3-d5cc-30b6-e88921dfcfed/displayicon.png",
+    "details": { "chromasCount": 1, "levelsCount": 4 },
+    "tags": ["vandal", "ion", "premium"]
+  },
+  {
+    "id": "skin-014",
+    "name": "Singularity Sheriff",
+    "weapon": "Sheriff",
+    "category": "Sidearm",
+    "tier": "Exclusive",
+    "collection": "Singularity",
+    "image": "https://media.valorant-api.com/weaponskins/04ee8992-4f3d-5b32-8495-26a978f64563/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["sheriff", "singularity", "exclusive"]
+  },
+  {
+    "id": "skin-015",
+    "name": "Glitchpop Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Glitchpop",
+    "image": "https://media.valorant-api.com/weaponskins/62d8548a-4b24-8178-5a04-51829e2f5b4d/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["vandal", "glitchpop", "exclusive"]
+  },
+  {
+    "id": "skin-016",
+    "name": "Ruination Vandal",
+    "weapon": "Vandal",
+    "category": "Rifle",
+    "tier": "Exclusive",
+    "collection": "Ruination",
+    "image": "https://media.valorant-api.com/weaponskins/4034293f-45b0-c6e9-b69e-50a3161ce27a/displayicon.png",
+    "details": { "chromasCount": 4, "levelsCount": 4 },
+    "tags": ["vandal", "ruination", "exclusive"]
+  }
+]

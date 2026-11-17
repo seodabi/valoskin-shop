@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">VALOSKIN SHOP</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/skins">Catalog</a>
+            <a href="/search" class="active">Search</a>
+            <a href="/api/skins">API Skins</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Search Weapon Skins</h2>
+
+        <!-- Formulário de Busca -->
+        <form action="/search" method="GET" class="search-form">
+            <input 
+                type="text" 
+                name="q" 
+                placeholder="Search by skin name, weapon (e.g. Vandal), or collection..." 
+                value="<%= typeof searchTerm !== 'undefined' ? searchTerm : '' %>"
+                required
+            >
+            <button type="submit">Search</button>
+        </form>
+
+        <% if (typeof skins !== 'undefined') { %>
+            <h3>Results found: <%= skins.length %></h3>
+
+            <div class="skins-grid">
+                <% skins.forEach(skin => { %>
+                    <div class="skin-card">
+                        <img src="<%= skin.image %>" alt="<%= skin.name %>" onerror="this.onerror=null; this.src='https://media.valorant-api.com/weapons/vandal/displayicon.png';">
+                        <h3><%= skin.name %></h3>
+                        <p><strong>Weapon:</strong> <%= skin.weapon %></p>
+                        <p><strong>Collection:</strong> <%= skin.collection %></p>
+                        <p><strong>Tier:</strong> <%= skin.tier %></p>
+                    </div>
+                <% }) %>
+            </div>
+        <% } %>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ValoSkin Shop - Seneca WEB700 Project Part 2</p>
+    </footer>
+</body>
+</html>

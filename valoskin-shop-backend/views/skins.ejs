@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">VALOSKIN SHOP</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/skins" class="active">Catalog</a>
+            <a href="/search">Search</a>
+            <a href="/api/skins">API Skins</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Skins Catalog (<%= skins.length %> Skins Available)</h2>
+
+        <div class="skins-grid">
+            <% skins.forEach(skin => { %>
+                <div class="skin-card">
+                    <img src="<%= skin.image %>" alt="<%= skin.name %>" onerror="this.onerror=null; this.src='https://media.valorant-api.com/weapons/vandal/displayicon.png';">
+                    <h3><%= skin.name %></h3>
+                    <p><strong>Weapon:</strong> <%= skin.weapon %></p>
+                    <p><strong>Collection:</strong> <%= skin.collection %></p>
+                    <p><strong>Tier:</strong> <%= skin.tier %></p>
+                    <% if (skin.details) { %>
+                        <p><strong>Chromas:</strong> <%= skin.details.chromasCount || 0 %> | <strong>Levels:</strong> <%= skin.details.levelsCount || 0 %></p>
+                    <% } %>
+                    <% if (skin.tags && skin.tags.length > 0) { %>
+                        <div class="tags">
+                            <% skin.tags.forEach(tag => { %>
+                                <span class="tag">#<%= tag %></span>
+                            <% }) %>
+                        </div>
+                    <% } %>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ValoSkin Shop - Seneca WEB700 Project Part 2</p>
+    </footer>
+</body>
+</html>
