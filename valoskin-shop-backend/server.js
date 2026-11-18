@@ -80,6 +80,15 @@ app.get('/api/skins', async (req, res) => {
         data: skins
     });
 });
+// Single skin by ID (/api/skins/:id)
+app.get('/api/skins/:id', async (req, res) => {
+    const skins = await getValorantSkins();
+    const skin = skins.find(s => s.id === req.params.id);
+    if (!skin) {
+        return res.status(404).json({ success: false, message: 'Skin not found' });
+    }
+    res.json({ success: true, data: skin });
+});
 
 // Start the server
 app.listen(PORT, () => {
